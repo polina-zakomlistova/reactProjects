@@ -1,0 +1,15 @@
+.urgentList {
+    background-color: rgb(214, 126, 78);
+}
+.normalList {
+    background-color: rgb(213, 205, 87);
+}
+.nonUrgentList {
+    background-color: rgb(131, 213, 87);
+}
+.relevanceLists {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 10px;
+}

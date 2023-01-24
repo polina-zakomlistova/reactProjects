@@ -1,0 +1,30 @@
+.posts__item {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #525278;
+    border-radius: 20px;
+    width: 50%;
+    min-height: 200px;
+    text-align: center;
+    background-color: rgb(123, 125, 179);
+}
+
+.heading__post {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin: 0 0 10px 0;
+}
+
+.title__post {
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.title__post--id {
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 30px;
+    align-items: center;
+}

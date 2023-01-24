@@ -1,0 +1,58 @@
+.app {
+    text-align: center;
+}
+
+/* .active {
+    color: aquamarine;
+    text-decoration: none;
+} */
+
+.activeLink {
+    color: #ffe0a6;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.link {
+    color: #ffe0a6;
+    font-size: 1.5rem;
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+button {
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(171, 171, 228);
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+h1 {
+    margin: 20px 0 0 0;
+    font-size: 72px;
+}
+
+a {
+    color: #ffe0a6;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav a {
+    margin: 20px;
+}
+
+nav {
+    background-color: rgb(86, 109, 95);
+    padding: 20px;
+}

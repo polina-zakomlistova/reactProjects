@@ -1,0 +1,62 @@
+.app {
+    text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.appHeading {
+    font-size: 2.2rem;
+    color: white;
+    margin: 20px 0;
+}
+.appTitle {
+    font-size: 1.2rem;
+    color: white;
+    margin: 20px 0;
+}
+
+.button {
+    width: 100%;
+    margin: 10px auto;
+}
+button {
+    height: 50px;
+    cursor: pointer;
+    background-color: beige;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+.radioForm {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+}
+
+.radioForm input {
+    display: none;
+}
+.radioForm label {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    background-color: beige;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border: 2px gray solid;
+    box-sizing: border-box;
+
+    user-select: none;
+}
+
+.radioForm input:checked + label {
+    background: #ffe0a6;
+}
+
+.radioForm label:hover {
+    color: #666;
+}

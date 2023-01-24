@@ -1,0 +1,54 @@
+.App {
+    text-align: center;
+}
+
+/* .active {
+    color: aquamarine;
+    text-decoration: none;
+} */
+
+.activeLink {
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.link {
+    color: aquamarine;
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(171, 171, 228);
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+h1 {
+    margin: 20px 0 0 0;
+    font-size: 72px;
+}
+
+a {
+    color: aquamarine;
+    font-size: 1.5rem;
+}
+
+nav a {
+    margin: 20px;
+}
+
+nav {
+    background-color: rgb(86, 109, 95);
+    padding: 20px;
+}

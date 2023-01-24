@@ -1,0 +1,10 @@
+.moreWeek {
+    border: 5px yellow;
+}
+.week {
+    border: 5px rgb(0, 255, 38);
+}
+
+.today {
+    border: 5px rgb(255, 64, 0);
+}

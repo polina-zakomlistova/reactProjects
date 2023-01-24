@@ -1,0 +1,12 @@
+.singleTodo p,
+h3,
+label {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+.singleTodo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px auto;
+}
